@@ -385,12 +385,12 @@ body .window-table__item.selected:hover {
 #app .inventory-container__box {
     border-radius: 1vh;
     border: .1vh solid #ffffff26;
-    background: radial-gradient(#00000003, #ffffff26 150%);
+    background: radial-gradient(#cb92c0, #ffffff26 150%);
 }
 
 #app .inventory-container__slot {
     border-radius: 1vh;
-    background: radial-gradient(#00000003, #ffffff33);
+    background: radial-gradient(#cb92c0, #cb92c0);
 }
 
 #app .inventory-capacity__bar__fill,
@@ -400,7 +400,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-capacity__bar,
 #app .inventory-wear__bar {
-    background: #f4f1e133;
+    background: #cb92c0;
     border-radius: 1vh;
     width: 100%;
     left: 1.5vh;
@@ -414,7 +414,7 @@ body .window-table__item.selected:hover {
 #app .inventory-container__slot:before {
     border-radius: 1vh;
     border: .1vh solid #f4f1e1;
-    background: radial-gradient(#00000003, #ffffffcc 150%);
+    background: radial-gradient(#cb92c0, #ffffffcc 150%);
 }
 
 .inventory-container__info__container {
@@ -430,7 +430,7 @@ body .window-table__item.selected:hover {
     height: 4vh !important;
     border-radius: 1vh !important;
     border: .1vh solid #ffffff26 !important;
-    background: radial-gradient(#00000003, #ffffff26) !important;
+    background: radial-gradient(#cb92c0, #ffffff26) !important;
 }
 
 #app .inventory-wear__bar {
@@ -1030,7 +1030,7 @@ body #app .hud-radmir-speedometer:after {
     right: 1vh;
     bottom: 1vh;
     z-index: -1;
-    background: #858585;
+    background: #cb92c0;
     border-radius: .7vh
 }
 
