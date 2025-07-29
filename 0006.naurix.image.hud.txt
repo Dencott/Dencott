@@ -43,8 +43,8 @@ background-size: auto 100vh;
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
-    width: 25.52vh !important;
-    height: 15.2vh !important;
+    width: 18.52vh !important;
+    height: 6.2vh !important;
     margin-right: 2vh !important;
 }
 
@@ -88,8 +88,8 @@ body .info-card .text {
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgb(247, 16, 255, 0.8) !important;
-    border: 0.19vh solid #ffffff0d;
+    background: rgba(173, 114, 175, 0.8) !important;
+    border: 0.19vh solid #a85a9e;
     border-radius: 2.5vh !important;
 }
 
