@@ -36,22 +36,22 @@ background-size: auto 100vh;
 /*---------- Размер логотипа сервера ----------*/
 /* Оригинальные стили, если нужно — оставь */
 .old-logo img {
-    width: 20.52vh;
+    width: 22.52vh;
     height: 10.2vh;
     margin-right: 2vh;
 }
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
-    width: 18.52vh !important;
-    height: 6.2vh !important;
+    width: 25.52vh !important;
+    height: 15.2vh !important;
     margin-right: 2vh !important;
 }
 
 /* ------- х2 х3 ------- */
 
 body .old-bonus {
-    background: #000000ef;
+    background: #fd0000ef;
     font-style: normal;
 }
 
@@ -73,12 +73,12 @@ body .old-bonus {
 
 /* ------- Имущка ------- */
 body .info-card {
-    background: rgb(203, 146, 192);
+    background: rgb(0 0 0 / 70%);
     border-radius: 31px !important
 }
 
 body .info-card__data {
-    background: rgb(203, 146, 192)
+    background: rgb(0 0 0 / 60%);
     border-radius: 31px
 }
 
@@ -88,7 +88,7 @@ body .info-card .text {
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgb(203, 146, 192) !important;
+    background: rgba(247, 16, 255, 0.8) !important;
     border: 0.19vh solid #ffffff0d;
     border-radius: 2.5vh !important;
 }
@@ -249,7 +249,7 @@ body .window-table__item:after {
 
 body .window-table__item.selected {
     background: #ffffff;
-    color: #cb92c0;
+    color: #000000cd;
     border: .09vh solid #f4f1e100
 }
 
@@ -266,12 +266,12 @@ body .window-table__item:hover {
 
 body .window-table__item.selected:hover {
     background: #ffffff;
-    color: #cb92c0;
+    color: #000000cd;
     border: 0.09vh solid #f4f1e100;
 }
 
 #app .window-button:hover {
-    color: #cb92c0;
+    color: #000000cd;
     background: #fff
 }
 
@@ -289,12 +289,12 @@ body .window-table__item.selected:hover {
 
 /* ------- Чат ------- */
 #app .radmir-chat-input__input {
-    background: rgba(202, 145, 191) !important;
+    background: rgb(0 0 0 / 80%) !important;
     border-radius: 11px !important
 }
 
 #app .radmir-chat-input__input input::selection {
-    background-color: #cb92c0
+    background-color: #00ddff40
 }
 
 #app .radmir-chat__before {
@@ -327,7 +327,7 @@ body .window-table__item.selected:hover {
     border-radius: 10px;
     height: 613px;
     width: 1283px;
-    background: #cb92c0 !important
+    background: #000000ba !important
 }
 
 #app .trade-items {
@@ -345,13 +345,13 @@ body .window-table__item.selected:hover {
 }
 
 #app .inventory-container__info__container {
-    background: linear-gradient(45deg, #cb92c0) !important;
+    background: linear-gradient(45deg, #000000ef) !important;
 }
 
 #app .inventory-action__modal,
 #app .inventory-extra__container,
 #app .inventory-main {
-    background: linear-gradient(45deg, #cb92c0);
+    background: linear-gradient(45deg, #000000ef);
 }
 
 #app .inventory-main__after,
@@ -362,7 +362,7 @@ body .window-table__item.selected:hover {
 #app .inventory-extra__container,
 #app .inventory-main {
     padding: 2vh;
-    background: rgba(203, 146, 192);
+    background: rgb(0 0 0 / 80%);
     border-radius: 1.1vh;
     border: 0;
 }
@@ -385,12 +385,12 @@ body .window-table__item.selected:hover {
 #app .inventory-container__box {
     border-radius: 1vh;
     border: .1vh solid #ffffff26;
-    background: radial-gradient(#cb92c0, #ffffff26 150%);
+    background: radial-gradient(#00000003, #ffffff26 150%);
 }
 
 #app .inventory-container__slot {
     border-radius: 1vh;
-    background: radial-gradient(#cb92c0, #cb92c0);
+    background: radial-gradient(#00000003, #ffffff33);
 }
 
 #app .inventory-capacity__bar__fill,
@@ -400,7 +400,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-capacity__bar,
 #app .inventory-wear__bar {
-    background: #cb92c0;
+    background: #f4f1e133;
     border-radius: 1vh;
     width: 100%;
     left: 1.5vh;
@@ -414,13 +414,13 @@ body .window-table__item.selected:hover {
 #app .inventory-container__slot:before {
     border-radius: 1vh;
     border: .1vh solid #f4f1e1;
-    background: radial-gradient(#cb92c0, #ffffffcc 150%);
+    background: radial-gradient(#00000003, #ffffffcc 150%);
 }
 
 .inventory-container__info__container {
     border: none !important;
     padding-top: .8vh !important;
-    background: rgba(203, 146, 192) !important;
+    background: rgb(0 0 0 / 80%) !important;
     border-radius: 1.1vh !important;
     overflow: hidden;
 }
@@ -430,7 +430,7 @@ body .window-table__item.selected:hover {
     height: 4vh !important;
     border-radius: 1vh !important;
     border: .1vh solid #ffffff26 !important;
-    background: radial-gradient(#cb92c0, #ffffff26) !important;
+    background: radial-gradient(#00000003, #ffffff26) !important;
 }
 
 #app .inventory-wear__bar {
@@ -439,7 +439,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-action__modal {
     padding: 2vh;
-    background: rgb(203, 146, 192);
+    background: rgb(0 0 0 / 80%);
     border-radius: 1.1vh;
 }
 
@@ -488,17 +488,17 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction__inner {
-    background: #cb92c0;
+    background: #00000080;
     border: .09vh solid #000000c2
 }
 
 #app .player-interaction-layer {
-    background: rgba(203, 146, 192);
+    background: rgb(0 0 0 / 80%);
     border: none
 }
 
 #app .player-interaction__container {
-    background: rgba(203, 146, 192);
+    background: rgb(0 0 0 / 80%);
     border: none
 }
 
@@ -518,15 +518,15 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction-favorite {
-    background: rgb(0, 0, 0, 0.8)
+    background: rgb(0 0 0 / 80%)
 }
 
 #app .player-interaction-favorite:hover {
-    background: rgb(203, 146, 192)
+    background: rgba(63, 63, 63, .8)
 }
 
 #app .container {
-    background: rgb(203, 146, 192)
+    background: rgb(0 0 0 / 80%)
 }
 
 #app .vue3-slider .track-filled,
@@ -540,7 +540,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Меню заправки ------- */
 #app .fuel__container {
-    background: #cb92c0
+    background: #000000cc
 }
 
 #app .fuel__button .text:before {
@@ -572,7 +572,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .fuel__close:hover img {
-    filter: drop-shadow(0 0 8px #cb92c0) !important
+    filter: drop-shadow(0 0 8px #ffffff80) !important
 }
 
 #app .fuel__fill .range-slider-fill {
@@ -595,16 +595,16 @@ body .window-table__item.selected:hover {
 .fuel__class-col:hover {
     background: #fff !important;
     box-shadow: 0 12px 22px #ffffff14 !important;
-    color: #cb92c0 !important
+    color: #000 !important
 }
 
 #app .fuel__button {
     background: linear-gradient(185.93deg, #fff -22.13%, #e6e6e6 122.51%) !important;
-    color: #cb92c0 !important
+    color: #000 !important
 }
 
 #app .fuel__button:hover {
-    box-shadow: 0 6px 20px #cb92c0 !important
+    box-shadow: 0 6px 20px #ffffff40 !important
 }
 
 /* ------- Без сознания ------- */
@@ -622,7 +622,7 @@ body .window-table__item.selected:hover {
 
 #app .death {
     font-style: italic;
-    background: #cb92c0 !important
+    background: #000000ba !important
 }
 
 #app .death-timer {
