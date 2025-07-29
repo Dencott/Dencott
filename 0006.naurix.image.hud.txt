@@ -88,7 +88,7 @@ body .info-card .text {
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgba(247, 16, 255, 0.8) !important;
+    background: rgb(247, 16, 255, 0.8) !important;
     border: 0.19vh solid #ffffff0d;
     border-radius: 2.5vh !important;
 }
