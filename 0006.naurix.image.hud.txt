@@ -88,7 +88,7 @@ body .info-card .text {
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgba(173, 114, 175, 0.8) !important;
+    background: rgba(203, 146, 192) !important;
     border: 0.19vh solid #a85a9e;
     border-radius: 2.5vh !important;
 }
@@ -345,13 +345,13 @@ body .window-table__item.selected:hover {
 }
 
 #app .inventory-container__info__container {
-    background: linear-gradient(45deg, #000000ef) !important;
+    background: linear-gradient(45deg, #cb92c0) !important;
 }
 
 #app .inventory-action__modal,
 #app .inventory-extra__container,
 #app .inventory-main {
-    background: linear-gradient(45deg, #000000ef);
+    background: linear-gradient(45deg, #cb92c0);
 }
 
 #app .inventory-main__after,
@@ -488,8 +488,8 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction__inner {
-    background: #00000080;
-    border: .09vh solid #000000c2
+    background: #cb92c0;
+    border: .09vh solid #cb92c0
 }
 
 #app .player-interaction-layer {
