@@ -43,8 +43,8 @@ background-size: auto 100vh;
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
-    width: 18.52vh !important;
-    height: 6.2vh !important;
+    width: 22.52vh !important;
+    height: 10.2vh !important;
     margin-right: 2vh !important;
 }
 
@@ -493,23 +493,23 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction-layer {
-    background: rgb(255, 255, 255)
+    background: rgb(123, 123, 123)
     border: none
 }
 
 #app .player-interaction__container {
-    background: rgb(255, 255, 255);
+    background: rgb(123, 123, 123);
     border: none
 }
 
 #app .player-interaction__icon,
 .player-interaction__icon_active {
-    fill: white !important
+    fill: rgb(255, 255, 255) !important
 }
 
 #app .player-interaction__title,
 .player-interaction__title_active {
-    color: #ffffff !important
+    color: #7b7b7b !important
 }
 
 #app .player-interaction__container:after,
@@ -540,7 +540,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Меню заправки ------- */
 #app .fuel__container {
-    background: #ffffff42
+    background: #7b7b7b
 }
 
 #app .fuel__button .text:before {
@@ -1056,7 +1056,7 @@ body #app .hud-radmir-speedometer:after {
     right: 1vh;
     bottom: 1vh;
     z-index: -1;
-    background: #ffffff42;
+    background: #7b7b7b;
     border-radius: .7vh
 }
 
