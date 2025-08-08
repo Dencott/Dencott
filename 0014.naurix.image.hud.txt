@@ -43,7 +43,7 @@ background-size: auto 100vh;
 
 /* Новый стиль, который точно применится к текущему шаблону */
 .Old-Fixed-Logo img {
-    width: 22.52vh !important;
+    width: 20.52vh !important;
     height: 6.2vh !important;
     margin-right: 2vh !important;
 }
