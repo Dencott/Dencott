@@ -34,16 +34,24 @@ background-size: auto 100vh;
 }
 
 /*---------- Размер логотипа сервера ----------*/
+/* Оригинальные стили, если нужно — оставь */
 .old-logo img {
-    width: 19.52vh;
-    height: 7.2vh;
+    width: 22.52vh;
+    height: 10.2vh;
     margin-right: 2vh;
+}
+
+/* Новый стиль, который точно применится к текущему шаблону */
+.Old-Fixed-Logo img {
+    width: 20.52vh !important;
+    height: 8.2vh !important;
+    margin-right: 2vh !important;
 }
 
 /* ------- х2 х3 ------- */
 
 body .old-bonus {
-    background: #000000ef;
+    background: #fd0000ef;
     font-style: normal;
 }
 
@@ -65,7 +73,7 @@ body .old-bonus {
 
 /* ------- Имущка ------- */
 body .info-card {
-    background: rgb(218, 201, 243);
+    background: rgb(0 0 0 / 70%);
     border-radius: 31px !important
 }
 
@@ -75,13 +83,13 @@ body .info-card__data {
 }
 
 body .info-card .text {
-    color: #cfcfcf
+    color: #cb92c0
 }
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgb(218, 201, 243) !important;
-    border: 0.19vh solid #dac9f3;
+    background: rgb(203,146,192, 0.8) !important;
+    border: 0.19vh solid #ffffff0d;
     border-radius: 2.5vh !important;
 }
 
@@ -252,13 +260,13 @@ body .window-button {
 }
 
 body .window-table__item:hover {
-    background: #dac9f3;
+    background: #ffffff50;
     border-color: none
 }
 
 body .window-table__item.selected:hover {
     background: #ffffff;
-    color: #dac9f3;
+    color: #000000cd;
     border: 0.09vh solid #f4f1e100;
 }
 
@@ -281,7 +289,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Чат ------- */
 #app .radmir-chat-input__input {
-    background: rgb(218, 201, 243) !important;
+    background: rgba(203,146,192, 0.8) !important;
     border-radius: 11px !important
 }
 
@@ -319,7 +327,7 @@ body .window-table__item.selected:hover {
     border-radius: 10px;
     height: 613px;
     width: 1283px;
-    background: #dac9f3 !important
+    background: #CB92C0!important
 }
 
 #app .trade-items {
@@ -337,13 +345,13 @@ body .window-table__item.selected:hover {
 }
 
 #app .inventory-container__info__container {
-    background: linear-gradient(45deg, #dac9f3) !important;
+    background: linear-gradient(45deg, #000000ef) !important;
 }
 
 #app .inventory-action__modal,
 #app .inventory-extra__container,
 #app .inventory-main {
-    background: linear-gradient(45deg, #dac9f3);
+    background: linear-gradient(45deg, #000000ef);
 }
 
 #app .inventory-main__after,
@@ -354,7 +362,7 @@ body .window-table__item.selected:hover {
 #app .inventory-extra__container,
 #app .inventory-main {
     padding: 2vh;
-    background: rgb(218, 201, 243);
+    background: rgba(203,146,192, 0.8);
     border-radius: 1.1vh;
     border: 0;
 }
@@ -376,13 +384,13 @@ body .window-table__item.selected:hover {
 #app .inventory-capacity,
 #app .inventory-container__box {
     border-radius: 1vh;
-    border: .1vh solid #dac9f3;
-    background: radial-gradient(#dac9f3, #dac9f3 150%);
+    border: .1vh solid #ffffff26;
+    background: radial-gradient(#00000003, #ffffff26 150%);
 }
 
 #app .inventory-container__slot {
     border-radius: 1vh;
-    background: radial-gradient(#dac9f3, #dac9f3);
+    background: radial-gradient(#00000003, #ffffff33);
 }
 
 #app .inventory-capacity__bar__fill,
@@ -392,7 +400,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-capacity__bar,
 #app .inventory-wear__bar {
-    background: #dac9f3;
+    background: #f4f1e133;
     border-radius: 1vh;
     width: 100%;
     left: 1.5vh;
@@ -405,14 +413,14 @@ body .window-table__item.selected:hover {
 
 #app .inventory-container__slot:before {
     border-radius: 1vh;
-    border: .1vh solid #dac9f3;
-    background: radial-gradient(#dac9f3, #dac9f3 150%);
+    border: .1vh solid #f4f1e1;
+    background: radial-gradient(#00000003, #ffffffcc 150%);
 }
 
 .inventory-container__info__container {
     border: none !important;
     padding-top: .8vh !important;
-    background: rgb(218, 201, 243) important;
+    background: rgb(0 0 0 / 80%) !important;
     border-radius: 1.1vh !important;
     overflow: hidden;
 }
@@ -421,8 +429,8 @@ body .window-table__item.selected:hover {
 .inventory-wear {
     height: 4vh !important;
     border-radius: 1vh !important;
-    border: .1vh solid #dac9f3 !important;
-    background: radial-gradient(#dac9f3, #dac9f3) !important;
+    border: .1vh solid #ffffff26 !important;
+    background: radial-gradient(#00000003, #ffffff26) !important;
 }
 
 #app .inventory-wear__bar {
@@ -431,7 +439,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-action__modal {
     padding: 2vh;
-    background: rgb(218, 201, 243);
+    background: rgba(203,146,192, 0.8);
     border-radius: 1.1vh;
 }
 
@@ -480,17 +488,17 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction__inner {
-    background: #dac9f3;
-    border: .09vh solid #dac9f3
+    background: #CB92C0;
+    border: .09vh solid #000000c2
 }
 
 #app .player-interaction-layer {
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border: none
 }
 
 #app .player-interaction__container {
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border: none
 }
 
@@ -510,7 +518,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction-favorite {
-    background: rgb(0 0 0 / 80%)
+    background: rgba(203,146,192, 0.8)
 }
 
 #app .player-interaction-favorite:hover {
@@ -518,7 +526,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .container {
-    background: rgb(0 0 0 / 80%)
+    background: rgba(203,146,192, 0.8)
 }
 
 #app .vue3-slider .track-filled,
@@ -532,7 +540,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Меню заправки ------- */
 #app .fuel__container {
-    background: #dac9f3
+    background: #CB92C0
 }
 
 #app .fuel__button .text:before {
@@ -614,7 +622,7 @@ body .window-table__item.selected:hover {
 
 #app .death {
     font-style: italic;
-    background: #dac9f3 !important
+    background: #000000ba !important
 }
 
 #app .death-timer {
@@ -943,8 +951,8 @@ body .window-table__item.selected:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2vh;
-    border: 0.65vh solid #dac9f3 !important
+    border-radius: 100%;
+    border: none
 }
 
 body #app .hud-radmir-radar__map {
@@ -957,8 +965,7 @@ body #app .hud-radmir-radar__map {
 }
 
 #app .hud-radmir-radar__radar {
-    width: 26.3vh;
-    border-radius: 2vh
+    width: 26.3vh
 }
 
 #app .hud-radmir-radar {
