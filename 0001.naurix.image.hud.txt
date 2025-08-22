@@ -34,16 +34,24 @@ background-size: auto 100vh;
 }
 
 /*---------- Размер логотипа сервера ----------*/
+/* Оригинальные стили, если нужно — оставь */
 .old-logo img {
-    width: 24.52vh;
-    height: 12.2vh;
+    width: 22.52vh;
+    height: 10.2vh;
     margin-right: 2vh;
+}
+
+/* Новый стиль, который точно применится к текущему шаблону */
+.Old-Fixed-Logo img {
+    width: 25.52vh !important;
+    height: 15.2vh !important;
+    margin-right: 2vh !important;
 }
 
 /* ------- х2 х3 ------- */
 
 body .old-bonus {
-    background: #000000ef;
+    background: #fd0000ef;
     font-style: normal;
 }
 
@@ -75,12 +83,12 @@ body .info-card__data {
 }
 
 body .info-card .text {
-    color: #cfcfcf
+    color: #cb92c0
 }
 
 /* ------- Окна ------- */
 #app .modal-container-wrapper {
-    background: rgba(0, 0, 0, 0.8) !important;
+    background: rgb(203,146,192, 0.8) !important;
     border: 0.19vh solid #ffffff0d;
     border-radius: 2.5vh !important;
 }
@@ -281,7 +289,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Чат ------- */
 #app .radmir-chat-input__input {
-    background: rgb(0 0 0 / 80%) !important;
+    background: rgba(203,146,192, 0.8) !important;
     border-radius: 11px !important
 }
 
@@ -319,7 +327,7 @@ body .window-table__item.selected:hover {
     border-radius: 10px;
     height: 613px;
     width: 1283px;
-    background: #000000ba !important
+    background: #CB92C0!important
 }
 
 #app .trade-items {
@@ -354,7 +362,7 @@ body .window-table__item.selected:hover {
 #app .inventory-extra__container,
 #app .inventory-main {
     padding: 2vh;
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border-radius: 1.1vh;
     border: 0;
 }
@@ -431,7 +439,7 @@ body .window-table__item.selected:hover {
 
 #app .inventory-action__modal {
     padding: 2vh;
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border-radius: 1.1vh;
 }
 
@@ -480,17 +488,17 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction__inner {
-    background: #00000080;
+    background: #CB92C0;
     border: .09vh solid #000000c2
 }
 
 #app .player-interaction-layer {
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border: none
 }
 
 #app .player-interaction__container {
-    background: rgb(0 0 0 / 80%);
+    background: rgba(203,146,192, 0.8);
     border: none
 }
 
@@ -510,7 +518,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .player-interaction-favorite {
-    background: rgb(0 0 0 / 80%)
+    background: rgba(203,146,192, 0.8)
 }
 
 #app .player-interaction-favorite:hover {
@@ -518,7 +526,7 @@ body .window-table__item.selected:hover {
 }
 
 #app .container {
-    background: rgb(0 0 0 / 80%)
+    background: rgba(203,146,192, 0.8)
 }
 
 #app .vue3-slider .track-filled,
@@ -532,7 +540,7 @@ body .window-table__item.selected:hover {
 
 /* ------- Меню заправки ------- */
 #app .fuel__container {
-    background: #000000cc
+    background: #CB92C0
 }
 
 #app .fuel__button .text:before {
