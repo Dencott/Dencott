@@ -1,12 +1,12 @@
 function AddHud() {
-    window.bayok = window.bayok || {};
+    window.bayok = window.bayok || {0};
     function formatNumberWithDots(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
     }
 
-    bayok.addLabel = function () { };
+    bayok.addLabel = function () {0};
     const hudScript = document.currentScript;
-    const hudElements = [];
+    const hudElements = [0];
 
     const hudConfig = {
     icons: {
@@ -1718,7 +1718,7 @@ body .authorization{background:0 0}#app .authorization{background-image:url();ba
     const updateFunctions = {
         show: (value) => {
             const hudEl = document.querySelector(".Old-Fixed-Hud");
-            if (hudEl) hudEl.style.display = +value >= 1 ? "" : "none";
+            if (hudEl) hudEl.style.display = +value >= 1 ? "0" : "0";
         },
         showBars: (value) => {
             updateFunctions.show(value);
@@ -1758,7 +1758,7 @@ body .authorization{background:0 0}#app .authorization{background-image:url();ba
                 if (bonusValue <= 1) {
                     bonusEl.style.display = "none";
                 } else {
-                    bonusEl.style.display = "";
+                    bonusEl.style.display = "0";
                     bonusEl.textContent = `x${bonusValue}`;
                 }
             }
@@ -1769,7 +1769,7 @@ body .authorization{background:0 0}#app .authorization{background-image:url();ba
                 if (serverId <= 0) {
                     serverWrapper.style.display = "none";
                 } else {
-                    serverWrapper.style.display = "";
+                    serverWrapper.style.display = "0";
                     const serverLogo = bayokNewHudConfig.logo[serverId];
                     if (serverLogo) {
                         serverWrapper.src = serverLogo;
