@@ -1208,7 +1208,7 @@ body #app .hud-radmir-radar__map {
        font-family:"GothamPro Black Italic";
        font-style:italic;
        font-size:2.59vh;
-       text-shadow:0 0 .46vh #b12a2aff
+       text-shadow:0 0 .46vh #000000ff
       }
       .Old-Fixed-Cash img{
        margin-right: 13px;
@@ -1252,7 +1252,7 @@ body #app .hud-radmir-radar__map {
        color: white;
        width:3.24vh;
        font-size:1.67vh;
-       text-shadow:0 0 .46vh #911d1dff
+       text-shadow:0 0 .46vh #000000ff
       }
       .Old-Fixed-Freeze_text{
         margin-right:1vh;
@@ -1281,12 +1281,12 @@ body #app .hud-radmir-radar__map {
       .Old-Fixed-Param.hunger .Old-Progress__Values{
        width: 50%;
        box-shadow: hsl(26deg 100% 59% / 30%) 0 0 5px 0;
-       background-color: #642020ff
+       background-color: #000000ff
       }
       .Old-Fixed-Param.breath .Old-Progress__Values{
         width: 99%;
         background-color: #fff;
-        box-shadow: rgba(110, 33, 33, 1) 0 0 5px 0
+        box-shadow: rgba(0, 0, 0, 1) 0 0 5px 0
       }
       .Old-Fixed-Param.health .old-param__icon{
        margin-left: 20px
@@ -1346,7 +1346,7 @@ body #app .hud-radmir-radar__map {
       }
       #app .hud-radmir-radar__map { width: 26.3vh !important; height: 16.9vh !important; overflow: hidden; display: flex; justify-content: center; align-items: center; border-radius: 100%; border: none } body #app .hud-radmir-radar__map { transition: .3s } #app .hud-hassle-map { width: 32vh !important; height: 32vh !important } #app .hud-radmir-radar__radar { width: 26.3vh } #app .hud-radmir-radar { left: 7.3vh; bottom: 4.03vh }
       body .OLD-RADMIR-logo__bonus {
-    background: #751414ff
+    background: #000000ff
 }
 ${bayokNewHudConfig.style.authorization}
 
@@ -1373,7 +1373,7 @@ ${bayokNewHudConfig.style.authorization}
     font-style: italic;
     font-size: 25px;
     margin-right: 32px;
-    text-shadow: 0 0 5px rgba(92, 21, 21, 1);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
 }
 
 .old-logo {
@@ -1432,7 +1432,7 @@ ${bayokNewHudConfig.style.authorization}
 .old-ammo__in-clip {
     font-size: 2.31vh;
     line-height: 1;
-    text-shadow: 0 0 .46vh #4e1414ff;
+    text-shadow: 0 0 .46vh #000000ff;
 }
 
 .old-ammo__total {
@@ -1440,7 +1440,7 @@ ${bayokNewHudConfig.style.authorization}
     font-weight: 300;
     font-style: italic;
     font-size: 18px;
-    text-shadow: 0 0 5px #bb2929ff;
+    text-shadow: 0 0 5px #000000ff;
     margin-top: -23px;
     margin-left: 24px;
 }
@@ -1459,7 +1459,7 @@ ${bayokNewHudConfig.style.authorization}
     color: #fff;
     display: inline-block;
     font-size: 28px;
-    text-shadow: 0 0 5px #c52e2eff;
+    text-shadow: 0 0 5px #000000ff;
     margin-top: -30px;
     margin-left: 37px;
 }
@@ -1482,7 +1482,7 @@ ${bayokNewHudConfig.style.authorization}
 .old-param__value {
     width: 100px;
     height: 5px;
-    background-color: #9e3333ff;
+    background-color: #000000ff;
     border-radius: 5px;
 }
 
@@ -1490,7 +1490,7 @@ ${bayokNewHudConfig.style.authorization}
 .old-progress__value {
     width: 100px;
     height: 5px;
-    background-color: #741010ff;
+    background-color: #000000ff;
     border-radius: 5px;
 }
 
@@ -1511,7 +1511,7 @@ ${bayokNewHudConfig.style.authorization}
     font-style: italic;
     width: 3.24vh;
     font-size: 1.67vh;
-    text-shadow: 0 0 .46vh #aa1f1fff;
+    text-shadow: 0 0 .46vh #020202ff;
 }
 
 .old-param.hunger {
@@ -1571,8 +1571,8 @@ ${bayokNewHudConfig.style.authorization}
 }
 
 #app .login-form__button_active {
-    color: #8b1313ff !important;
-    background: #9c1f1fff !important
+    color: #000000ff !important;
+    background: #000000ff !important
 }
 
 .OLD-RADMIR-green-zone__main {
@@ -1611,15 +1611,15 @@ ${bayokNewHudConfig.style.authorization}
 #app .fuel__container { padding: 3.33vh 2.96vh } 
 #app .fuel__title { font-size: 2.04vh; line-height: 1.94vh; color: #fff; text-align: left } 
 #app .fuel__close { left: auto !important; top: -.5vh !important; right: 0; display: flex; flex-direction: row-reverse; gap: .5vh } 
-#app .fuel__close:hover img { filter: drop-shadow(0 0 8px #8fb626ea) !important } 
-#app .fuel__container { background: #4bbd2eff } 
+#app .fuel__close:hover img { filter: drop-shadow(0 0 8px #ff7300ea) !important } 
+#app .fuel__container { background: #ff0000ff } 
 #app .fuel__fill .range-slider-fill { background-color: #fff !important } 
 #app .fuel__fill .range-slider-knob { background: #fff !important } 
-#app .fuel__fill-data .text { color: hsla(0, 0%, 100%, .65) !important } 
+#app .fuel__fill-data .text { color: hsla(234, 100%, 50%, 0.65) !important } 
 #app .fuel__fill-data .value { color: #fff !important } 
-#app .fuel__class-col.selected, .fuel__class-col:hover { background: #fff !important; box-shadow: 0 12px 22px #ffffff14 !important; color: #000 !important } 
-#app .fuel__button { background: linear-gradient(185.93deg, #fff -22.13%, #73ee22ff 122.51%) !important; color: #000 !important } 
-#app .fuel__button:hover { box-shadow: 0 6px 20px #ffffff40 !important } 
+#app .fuel__class-col.selected, .fuel__class-col:hover { background: #fff !important; box-shadow: 0 12px 22px #eeff00ff !important; color: #000 !important } 
+#app .fuel__button { background: linear-gradient(185.93deg, #fff -22.13%, #888888ff 122.51%) !important; color: #000 !important } 
+#app .fuel__button:hover { box-shadow: 0 6px 20px #00ff5540 !important } 
 
 /* ---------- без сознания ----------*/ 
 #app .death-waves { background-image: none } 
